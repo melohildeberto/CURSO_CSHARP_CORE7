@@ -2,9 +2,11 @@
 {
     public class Aluno
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
+        public int Matricula { get; set; }
         public String Nome { get; set; }
         public String Cpf { get; set; }
         public String Rg { get; set; }
+        
     }
 }
